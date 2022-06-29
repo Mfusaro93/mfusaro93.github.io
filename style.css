@@ -1,0 +1,357 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	color: rgb(10, 10, 10);
+	background: #f2f2f2;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+/*
+HEADER
+ */
+    #logoHeader {
+    float: left;
+	padding: 15px 0 0 20px;
+}
+	#logoHeader:hover {
+		color: #F53727;
+	}
+	#logoHeader .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	/*#logoHeader .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}*/
+#mainHeader {
+	background: #751B13;
+	color: #FFEBEB;
+	height: 80px;
+}
+#mainHeader a {
+		color: #FFEBEB;
+	}
+    nav ul{
+    float: right;
+    }
+nav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+padding-right: 20px;
+}
+nav ul li {
+display: inline-block;
+line-height: 80px;
+}
+nav ul li a {
+display: block;
+padding: 0 10px;
+text-decoration: none;
+}
+nav ul li a:hover {
+background: #BF2E2E;
+}
+/* FIN HEADER */
+/* INDEX.HTML */
+/* CUERPO PAGINA */
+.titulo2 {
+	background-image: url(./Imagenes/Equipo.jpeg);
+	background-size: 100%;
+	background-position: center;
+    text-align: center;
+    font-size: 3em;
+    line-height: 1.2em;
+    width: 100%;
+    height: 800px;
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+    margin: 0 auto;
+}
+
+h1 {text-shadow: 7px 4px 5px #C22D1F}
+
+.padre__flex{
+	background-color: #FFEBEB;
+	width: 100%;
+	height: 500px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.cubo{
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: #C22D1F;
+	width: 800px;
+	height: 400px;
+	margin: auto;
+	border-radius: 5%;
+	display: flex;
+	padding: 30px;
+	gap: 15px;
+}
+.cubo img{
+	height: 135px;
+	width: 135px;
+	padding: 10px;
+}
+.cubo ul{
+	padding: 10px;
+	position:relative;
+}
+div a h2{
+	color: black;
+	text-decoration: underline;
+}
+.cubo--chico{
+	justify-content: center;
+	background-color:#C22D1F;
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	border-radius: 10%;
+	text-align: center;
+}
+.tabla--resultados{
+	margin: auto;
+	font-size: x-large;
+	color: #FFEBEB;
+	width: 90%;
+	line-height: 1.3em;
+}
+article a h2{
+	color: black;
+	margin: 20px;
+	text-decoration:underline;
+}
+
+/*FIN INDEX.HTML */
+/* EQUIPO */
+.mainEquipo {
+	margin-left: 100px;
+	margin-right: 100px;
+	color: #751B13;
+}
+main section{
+	display: flex;
+}
+main .titulos{
+	margin-top: 60px;
+	font-size: xx-large;
+	text-align: center;
+	margin-bottom: 60px;
+	text-decoration: underline;
+}
+main section article{
+	margin: 50px;
+	line-height: 30px;
+}
+.informacionEquipo h3 {
+	margin: 50px 50px 20px 0px;
+}
+.escudoRoja{
+	height: 300px;
+	margin: 40px;
+}
+.plantel {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 50px;
+	justify-content: center;
+	text-align: center;
+	text-shadow: 100px;
+}
+.sectionInformacion{
+	justify-content: center;
+	line-height: 3em;
+}
+.cubo--Equipo{
+	margin-bottom: 100px;
+	color: #FFEBEB;
+	background-color:#751B13;
+	width: 800px;
+	height: 800px;
+	border-radius: 10px;
+	text-align: center;
+	gap: 50px;
+}
+.tabla--resultados2{
+	font-size: 30px;
+	margin: 40px;
+	padding: 10px;
+	font-size: x-large;
+	color: #FFEBEB;
+	width: 90%;
+	line-height: 2em;
+}
+/* FIN EQUIPO */
+/* TORNEOS */
+#mainTorneos {
+	color: #751B13;
+}
+
+#trofeo {
+	height: 150px;
+	margin: 5px;
+}
+main section div img {
+	height: 300px;
+	padding:10px; 
+}
+
+/* FIN DE TORNEOS */
+/* TIENDA */
+.sectionTiendaBanner {
+height: 500px;
+width: 100%;
+	background-image: url(./Imagenes/Milanfondo.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.sectionTienda{
+	margin: 100px;
+	color: #751B13;
+	border: none;
+}
+.sectionTienda div h2{
+	margin: 40px ;
+	font-size: xx-large;
+}
+main section div form{
+	display: flex;
+	gap: 50px;
+	justify-content: center;
+}
+
+main form fieldset input{
+	color: #FFEBEB;
+	display: block;
+	margin: 20px 0px 20px 0px;
+	background-color: #751B13;
+}
+
+/* FIN TIENDA */
+/* Registro */
+fieldset{
+	border: none;
+}
+.form-register {
+	width: 500px;
+	height: 600px;
+	background: #3c2424;
+	padding: 30px;
+	margin: 100px auto 100px auto;
+	border-radius: 4px;
+	font-family: 'calibri';
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.controls {
+	width: 100%;
+	background: #3c2424;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #c51f1f;
+	font-family: 'calibri';
+	font-size: 18px;
+	color: white;
+}
+
+.form-register p {
+	height: 40px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 40px;
+}
+
+.form-register a {
+	color: white;
+	text-decoration: none;
+}
+
+.form-register a:hover {
+	color: white;
+	text-decoration: underline;
+}
+	.form-register .boton{
+	width: 100%;
+	background: #c51f1f;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+}
+/* Fin Registro */
+
+/*PIE DE PAGINA*/
+.pie {
+	width: 100%;
+	background-color: #751B13;
+	position: relative;
+	bottom: 0%;
+}
+.pie .grupo-1{
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 50px;
+	padding: 45px 0px;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.pie .grupo-1 .box figure{
+	width: 100%;
+	height: 100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.pie .grupo-1 .box figure p{
+	font-size: 30px;
+}
+.pie .grupo-1 .box h2{
+	color:#FFEBEB;
+	margin-bottom: 25px;
+	font-size: 20px;
+}
+.pie .grupo-1 .box p{
+	color: #FFEBEB;
+	margin-bottom: 10px;
+}
+.pie .grupo-1 .red-social img {
+	color: #FFEBEB;
+	display:inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 45px;
+	margin-right: 10px;
+}
+.pie .grupo-2{
+	justify-content: center;
+	display: flex;
+    background-color: #17181860;
+    padding: 15px 10px;
+    text-align: center;
+    color: #FFEBEB;
+}
+.pie .grupo-2 small{
+    font-size: 15px;
+}
